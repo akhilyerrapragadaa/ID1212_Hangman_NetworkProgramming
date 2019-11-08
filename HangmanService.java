@@ -133,7 +133,7 @@ public class HangmanService {
 			
 			// break;
 		}  else {
-			info = "No. tries remaining - " +(MAX_ERRORS - nbErrors);
+			info = "No. tries remaining - " +(MAX_ERRORS - nbErrors) + " "+"Words recognized so far "+wordFoundContent();
 			//System.out.println("No tries remaining"+(MAX_ERRORS - nbErrors));
 		    
 		}
